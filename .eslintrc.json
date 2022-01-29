@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "airbnb-base",
+    "airbnb-typescript/base",
+    "prettier",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "rules": {
+    "class-methods-use-this": "off",
+    "@typescript-eslint/indent": "warn",
+    "@typescript-eslint/comma-dangle": "warn",
+    "max-classes-per-file": "off"
+  },
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "src",
+    "rootDir": "./",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strict": true,
+    "target": "es6",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "types": ["node", "mocha", "chai"]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
